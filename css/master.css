@@ -1,0 +1,70 @@
+/*Colores bases*/
+.amarillo{ color: #FFCC29;}
+.verdeoscuro { color: #00A859;}
+.verdeclaro{ color: #A8CF45;}
+.azuloscuro{color: #3E4095;}
+/*Etiquetas*/
+a:link {
+  color: #00A859;
+}
+body{
+  background: url("../images/background/wall01.jpg") no-repeat center center fixed;
+}
+p{
+  font-size: 20px;
+}
+/*Clases*/
+.active{
+  color: #A8CF45;
+}
+.nav-brand {
+  padding: 3px;
+  background-color: red;
+}
+.glyphicon {
+  font-size: 30px;
+}
+.slider1 {
+  height: 90vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background: url("../images/logo.png") no-repeat center center fixed;
+}
+.slider_parent{
+  display: table;
+  height: 80vh;
+  width: 100%;
+}
+.slider_child{
+  display: table-cell;
+  vertical-align: middle;
+}
+.slider2 {
+  height: 80vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background: url("../images/background/2.jpg") no-repeat center center fixed;
+}
+.imagen{
+  height: auto;
+  width: 400px;
+}
+/*Medias Query*/
+@media (max-width: 780px) {
+  p{
+    font-size: 18px;
+  }
+}
+@media (max-width: 384px) {
+  p{
+    font-size: 16px;
+  }
+  .imagen{
+      width: 100%;
+      height: auto;
+  }
+}

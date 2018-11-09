@@ -25,6 +25,8 @@ Todo ello de manera sostenible, equilibrada y mantenible.
 
 ## Requerimientos técnicos
 - Diseño Responsivo xs, sm, md y lg
+- Bootstrap
+- jQuery
 
 ### Fuente
 - Tin Doghouse
@@ -59,3 +61,17 @@ Contiene secciones como
 - **Cultivo** Mostrara el sistema de cultivos de la empresa, junto con sus productos en venta
 - **Galería** Sección tipo blog donde se agregaran fotos de los nuevos productos según la temporada
 - **Nosotros** Mostrara la historia de la empresa, su ubicación, Dueño y personal
+
+## Estructura de archivos
+.
++-- _css
+|   +-- master.css
++-- _fonts
+|   +-- TinDog.ttf
+|   +-- TinDoglt.ttf
++-- _images
+|   +-- _background
+|   +-- _fotos
+|   +-- _icons
++-- _rsc
++-- index.html
