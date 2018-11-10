@@ -63,15 +63,21 @@ Contiene secciones como
 - **Nosotros** Mostrara la historia de la empresa, su ubicación, Dueño y personal
 
 ## Estructura de archivos
-.
-+-- _css
-|   +-- master.css
-+-- _fonts
-|   +-- TinDog.ttf
-|   +-- TinDoglt.ttf
-+-- _images
-|   +-- _background
-|   +-- _fotos
-|   +-- _icons
-+-- _rsc
+
+root
++-- css
+   +-- master.css
++-- fonts
+   +-- TinDog.ttf
+   +-- TinDoglt.ttf
++-- images
+   +-- background
+   +-- fotos
+   +-- icons
++-- rsc
 +-- index.html
+
+# Wireframe
+
+![Wireframe](rsc/mockup1.jpg)
+![Wireframe](rsc/mockup2.jpg)

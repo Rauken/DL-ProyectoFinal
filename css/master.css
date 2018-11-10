@@ -14,6 +14,14 @@ p{
   font-size: 20px;
 }
 /*Clases*/
+.seccion1{
+  font-family: cursive;
+  display: block;
+}
+.seccion2{
+  font-family: cursive;
+  display: inline-block;
+}
 .active{
   color: #A8CF45;
 }
